@@ -1,0 +1,16 @@
+'use strict';
+
+// dependencies
+
+var gulp = require("gulp");
+var sass = require("gulp-sass");
+var minifyCSS = require("gulp-clean-css");
+var uglify = require("gulp-uglify");
+var changed = require("gulp-changed");
+
+
+
+
+/////////////////
+// - SCSS/css
+/////////////////
