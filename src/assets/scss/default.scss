@@ -44,3 +44,17 @@ header {
   }
 
 }
+
+// Portfolio
+.project {
+  border: 2px solid $black;
+  padding: 10px;
+  img {
+    height: 240px;
+    margin-right: 10px;
+    float: left;
+  }
+  p{
+    float: left;
+  }
+}
