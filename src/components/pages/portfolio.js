@@ -4,12 +4,18 @@ import ProjectOne from "../projects/projectOne";
 class Portfolio extends Component {
 	render() {
 		return (
-			<div className="container-fluid">
+			<div className="portfolio container-fluid">
 
 				<h1>Portfolio</h1>
 
-				<ProjectOne />
-
+				<div className="projects container">
+					<ProjectOne />
+					<ProjectOne />
+					<ProjectOne />
+					<ProjectOne />
+					<ProjectOne />
+					<ProjectOne />
+				</div>
 
 			</div>
 		);
