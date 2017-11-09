@@ -51,6 +51,14 @@ header {
 }
 .project {
   padding: 10px;
+  position: relative;
+  h2 {
+    color: $white;
+    font-style: italic;
+    position: absolute;
+    top: 7em;
+    left: 1em;
+  }
   img {
     width: 100%;
   }
