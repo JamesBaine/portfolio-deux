@@ -59,7 +59,22 @@ header {
     top: 7em;
     left: 1em;
   }
+  p {
+    padding: 1.5em;
+    position: absolute;
+    top: 1em;
+    color: $white;
+    display: none;
+  }
   img {
     width: 100%;
   }
+}
+
+.project:hover > h2 {
+  display: none;
+}
+
+.project:hover > p {
+  display: block;
 }
