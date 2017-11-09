@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Project from "../projects/project";
+import Work from "../projects/work";
 
 class Portfolio extends Component {
 	render() {
@@ -11,27 +12,31 @@ class Portfolio extends Component {
 				<div className="projects container">
 
 					<div className="row">
-						<Project title="Spirit Bus" image={require("../../assets/photos/sm-bus.jpg")}>
-						An app detailing the routes and stops of the Spirit Bus public transit line in Monterey Park. The client side elements were designed with Javascript, CSS, Bootstrap and Sass. The map was rendered and traced using Leaflet.js.
+
+						<Project title={Work[0].title} image={Work[0].image}>
+							{Work[0].description}
 						</Project>
-						<Project title="Friend Finder" image={require("../../assets/photos/sm-friends.jpg")}>
-						An app detailing the routes and stops of the Spirit Bus public transit line in Monterey Park. The client side elements were designed with Javascript, CSS, Bootstrap and Sass. The map was rendered and traced using Leaflet.js.
+						<Project title={Work[1].title} image={Work[1].image}>
+							{Work[1].description}
 						</Project>
-						<Project title="React-News" image={require("../../assets/photos/sm-trivia.jpg")}>
-						An app detailing the routes and stops of the Spirit Bus public transit line in Monterey Park. The client side elements were designed with Javascript, CSS, Bootstrap and Sass. The map was rendered and traced using Leaflet.js.
+						<Project title={Work[2].title} image={Work[2].image}>
+							{Work[2].description}
 						</Project>
+
 					</div>
 
 					<div className="row">
-						<Project title="Wølf" image={require("../../assets/photos/sm-bam.jpg")}>
-						An app detailing the routes and stops of the Spirit Bus public transit line in Monterey Park. The client side elements were designed with Javascript, CSS, Bootstrap and Sass. The map was rendered and traced using Leaflet.js.
+
+						<Project title={Work[3].title} image={Work[3].image}>
+							{Work[3].description}
 						</Project>
-						<Project title="Flash Card Generator" image={require("../../assets/photos/sm-flashcard.jpg")}>
-						An app detailing the routes and stops of the Spirit Bus public transit line in Monterey Park. The client side elements were designed with Javascript, CSS, Bootstrap and Sass. The map was rendered and traced using Leaflet.js.
+						<Project title={Work[4].title} image={Work[4].image}>
+							{Work[4].description}
 						</Project>
-						<Project title="Giftastic" image={require("../../assets/photos/sm-donut.png")}>
-						An app detailing the routes and stops of the Spirit Bus public transit line in Monterey Park. The client side elements were designed with Javascript, CSS, Bootstrap and Sass. The map was rendered and traced using Leaflet.js.
+						<Project title={Work[5].title} image={Work[5].image}>
+							{Work[5].description}
 						</Project>
+
 					</div>
 
 				</div>
