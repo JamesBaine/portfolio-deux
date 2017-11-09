@@ -11,10 +11,10 @@ class Portfolio extends Component {
 				<div className="projects container">
 
 					<div className="row">
-						<Project title="Spirit Bus" image={require("../../assets/photos/sm-trivia.jpg")}>
+						<Project title="Spirit Bus" image={require("../../assets/photos/sm-bus.jpg")}>
 						An app detailing the routes and stops of the Spirit Bus public transit line in Monterey Park. The client side elements were designed with Javascript, CSS, Bootstrap and Sass. The map was rendered and traced using Leaflet.js.
 						</Project>
-						<Project title="Friend Finder" image={require("../../assets/photos/sm-trivia.jpg")}>
+						<Project title="Friend Finder" image={require("../../assets/photos/sm-friends.jpg")}>
 						An app detailing the routes and stops of the Spirit Bus public transit line in Monterey Park. The client side elements were designed with Javascript, CSS, Bootstrap and Sass. The map was rendered and traced using Leaflet.js.
 						</Project>
 						<Project title="React-News" image={require("../../assets/photos/sm-trivia.jpg")}>
@@ -23,13 +23,13 @@ class Portfolio extends Component {
 					</div>
 
 					<div className="row">
-						<Project title="Wølf" image={require("../../assets/photos/sm-trivia.jpg")}>
+						<Project title="Wølf" image={require("../../assets/photos/sm-bam.jpg")}>
 						An app detailing the routes and stops of the Spirit Bus public transit line in Monterey Park. The client side elements were designed with Javascript, CSS, Bootstrap and Sass. The map was rendered and traced using Leaflet.js.
 						</Project>
-						<Project title="Flash Card Generator" image={require("../../assets/photos/sm-trivia.jpg")}>
+						<Project title="Flash Card Generator" image={require("../../assets/photos/sm-flashcard.jpg")}>
 						An app detailing the routes and stops of the Spirit Bus public transit line in Monterey Park. The client side elements were designed with Javascript, CSS, Bootstrap and Sass. The map was rendered and traced using Leaflet.js.
 						</Project>
-						<Project title="Giftastic" image={require("../../assets/photos/sm-trivia.jpg")}>
+						<Project title="Giftastic" image={require("../../assets/photos/sm-donut.png")}>
 						An app detailing the routes and stops of the Spirit Bus public transit line in Monterey Park. The client side elements were designed with Javascript, CSS, Bootstrap and Sass. The map was rendered and traced using Leaflet.js.
 						</Project>
 					</div>
