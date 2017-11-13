@@ -67,7 +67,7 @@ h1 {
   flex-direction: column;
   .banner {
     margin: auto;
-    padding-top: 2.5rem;
+    padding-top: 2.75rem;
     border: 4px double;
     height: 18rem;
     width: 28rem;
@@ -77,17 +77,30 @@ h1 {
       margin-bottom: 1.5rem;
     }
     .title {
-      font-size: 20px;
+      font-size: 1.25rem;
       font-weight: bold;
-      margin-bottom: 1rem;
+      margin-bottom: 1.5rem;
     }
     .location {
-      margin-bottom: 4rem;
+      margin-bottom: 3rem;
     }
-    .email {
+    .links {
       color: $white;
-      font-size: 10px;
+      width: 100%;
+      margin: auto;
+      a {
+        color: $white;
+        font-size: 1rem;
+        padding: 0 1rem 0 1rem;
+      }
+      .email {
+        border-right: 1px solid $white;
+      }
+      .github {
+        border-left: 1px solid $white;
+      }
     }
+
   }
   .arrow {
     width: 20px;

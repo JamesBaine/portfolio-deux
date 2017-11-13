@@ -10,7 +10,10 @@ class HomePage extends Component {
 						<h1 className="name">James Baine</h1>
 						<h2 className="title">Web Developer && UI Designer</h2>
 						<p className="location">- Los Angeles, CA -</p>
-						<a className="email" href="mailto:jamesmbaine@gmail.com">jamesmbaine@gmail.com</a>
+						<div className="links">
+							<a className="email" href="mailto:jamesmbaine@gmail.com">jamesmbaine@gmail.com</a>
+							<a className="github" href="https://github.com/JamesBaine">github.com/JamesBaine</a>
+						</div>
 					</div>
 				</div>
 
