@@ -8,17 +8,20 @@ class Header extends Component {
 		return (
 			<header>
 
-				<div className="logo">
-					LOGO
-				</div>
+
+				<a className="logo" href="/#">LOGO</a>
+
 
 				<nav>
 					<ul>
 						<li className="first">
-							<Link to="/">Home</Link>
+							<a href="/#">Home</a>
 						</li>
 						<li>
-							<Link to="#projects">Portfolio</Link>
+							<a href="#projects">Projects</a>
+						</li>
+						<li>
+							<a href="#about">About</a>
 						</li>
 						<li className="last">
 							<Link to="/">Contact</Link>

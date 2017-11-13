@@ -7,7 +7,7 @@ class Portfolio extends Component {
 		return (
 			<div id="projects" className="portfolio container-fluid">
 
-				<h1 name="projects">Projects</h1>
+				<h1>Projects</h1>
 
 				<div className="projects container">
 
