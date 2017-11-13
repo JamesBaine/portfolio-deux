@@ -23,8 +23,11 @@ class App extends Component {
 
 					<Header />
 
-					<Route exact path="/" component={HomePage}></Route>
-					<Route exact path="/portfolio" component={Portfolio}></Route>
+					<HomePage />
+					<Portfolio />
+
+					{/* <Route exact path="/" component={HomePage}></Route>
+					<Route exact path="/portfolio" component={Portfolio}></Route> */}
 
 					<Footer />
 

@@ -1,13 +1,18 @@
 @import "_config.scss";
 
+// general
+
+// header
+
 header {
-  position: relative;
+  position: fixed;
   display: block;
   width: 100%;
-  background: $black;
+  background-color: $black;
+  opacity: .6;
   color: $white;
   height: 90px;
-
+}
   .logo {
     position: absolute;
     top: 50%; left: 15px;
@@ -43,11 +48,33 @@ header {
     }
   }
 
-}
+
 
 h1 {
   display: block;
   width: 100;
+}
+
+// home
+.home-content {
+  background: url("../photos/martin-sattler.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  min-height: 100vh;
+  @include flexbox();
+  justify-content: center;
+  align-items: center;
+  .banner {
+    margin: auto;
+    border: 4px double;
+    height: 18rem;
+    width: 25rem;
+    color: $white;
+    @include flexbox();
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 
