@@ -8,7 +8,7 @@ class HomePage extends Component {
 				<div className="banner">
 					<div className="headline">
 						<h1 className="name">James Baine</h1>
-						<p className="title">Web Developer && UI Designer</p>
+						<h2 className="title">Web Developer && UI Designer</h2>
 						<p className="location">- Los Angeles, CA -</p>
 						<a className="email" href="mailto:jamesmbaine@gmail.com">jamesmbaine@gmail.com</a>
 					</div>
