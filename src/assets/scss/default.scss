@@ -63,10 +63,11 @@ h1 {
   text-align: center;
   min-height: 100vh;
   @include flexbox();
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
+  flex-direction: column;
   .banner {
-    margin: auto;
+    margin: 0 auto 5rem auto;
     border: 4px double;
     height: 18rem;
     width: 25rem;
@@ -74,6 +75,17 @@ h1 {
     @include flexbox();
     justify-content: center;
     align-items: center;
+  }
+  .arrow {
+    width: 20px;
+    height: 20px;
+    border: solid $white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-bottom: 2rem;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
   }
 }
 

@@ -12,7 +12,7 @@ class HomePage extends Component {
 					</div>
 				</div>
 
-
+				<a href="" className="arrow"></a>
 
 			</div>
 		);
