@@ -9,6 +9,7 @@ class HomePage extends Component {
 					<div className="headline">
 						<h1 className="name">James Baine</h1>
 						<p className="title">Web Developer && UI Designer</p>
+						<p className="location">- Los Angeles, CA -</p>
 					</div>
 				</div>
 

@@ -11,7 +11,7 @@ header {
   background-color: $black;
   opacity: .6;
   color: $white;
-  height: 90px;
+  height: 60px;
 }
   .logo {
     position: absolute;
@@ -63,18 +63,26 @@ h1 {
   text-align: center;
   min-height: 100vh;
   @include flexbox();
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   flex-direction: column;
   .banner {
-    margin: 0 auto 5rem auto;
+    margin: auto;
     border: 4px double;
     height: 18rem;
-    width: 25rem;
+    width: 28rem;
     color: $white;
     @include flexbox();
     justify-content: center;
     align-items: center;
+    .name {
+      font-weight: normal;
+      padding-bottom: 1rem;
+    }
+    .title {
+      font-weight: bold;
+      padding-bottom: 1.5rem;
+    }
   }
   .arrow {
     width: 20px;
@@ -93,6 +101,7 @@ h1 {
 // Portfolio
 .portfolio {
   text-align: center;
+  min-height: 100vh;
 }
 
 .projects {
@@ -100,7 +109,6 @@ h1 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-
 }
 
 .project {
@@ -146,6 +154,14 @@ h1 {
   opacity: 1;
   @include transition( opacity .4s ease-in-out);
 }
+
+// media queries
+@media (max-width: 480px) {
+  .banner {
+    max-width: 100%;
+  }
+}
+
 
 @media (max-width: 768px) {
   .project {
