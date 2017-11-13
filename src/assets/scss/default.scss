@@ -76,6 +76,7 @@ h1 {
     padding: 10px;
     height: 100%;
     width: 100%;
+    position: relative;
     &:hover {
       background-color: rgba(0,0,0, 0.5);
     }
@@ -83,6 +84,9 @@ h1 {
       font-size: 2rem;
       color: $white;
       font-style: italic;
+      position: absolute;
+      bottom: 12px;
+      left: 5px;
     }
     p {
       padding: 1em;
