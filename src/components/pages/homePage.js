@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class HomePage extends Component {
 	render() {
 		return (
-			<div className="home-content container-fluid">
+			<div id="home" className="home-content container-fluid">
 
 				<div className="banner">
 					<div className="headline">
@@ -17,7 +17,7 @@ class HomePage extends Component {
 					</div>
 				</div>
 
-				<a href="" className="arrow"></a>
+				<a href="#projects" className="arrow"></a>
 
 			</div>
 		);

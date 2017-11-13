@@ -1,16 +1,19 @@
 @import "_config.scss";
 
 // general
-
+body {
+  margin: 0;
+}
 // header
 
 header {
   position: fixed;
   display: block;
   width: 100%;
-  background-color: rgba(0,0,0,.6);
+  background-color: $darkgrey;
   color: $white;
   height: 60px;
+  z-index: 1;
 }
   .logo {
     position: absolute;
@@ -60,6 +63,7 @@ h1 {
   background-size: cover;
   background-position: center;
   text-align: center;
+  width: 100%;
   min-height: 100vh;
   @include flexbox();
   justify-content: space-between;
@@ -112,6 +116,11 @@ h1 {
     margin-bottom: 2rem;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
+    &:hover {
+      border-color:$red;
+      border-width: 0 4px 4px 0;
+      @include transition(.4s ease-in-out);
+    }
   }
 }
 
@@ -120,6 +129,8 @@ h1 {
 .portfolio {
   text-align: center;
   min-height: 100vh;
+  margin-top: -60px;
+  padding-top: 60px;
 }
 
 .projects {

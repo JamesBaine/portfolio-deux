@@ -5,9 +5,9 @@ import Work from "../projects/work";
 class Portfolio extends Component {
 	render() {
 		return (
-			<div className="portfolio container-fluid">
+			<div id="projects" className="portfolio container-fluid">
 
-				<h1 className>Projects</h1>
+				<h1 name="projects">Projects</h1>
 
 				<div className="projects container">
 

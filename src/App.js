@@ -27,7 +27,7 @@ class App extends Component {
 					<Portfolio />
 
 					{/* <Route exact path="/" component={HomePage}></Route>
-					<Route exact path="/portfolio" component={Portfolio}></Route> */}
+					<Route exact path="/#projects" component={Portfolio}></Route> */}
 
 					<Footer />
 
