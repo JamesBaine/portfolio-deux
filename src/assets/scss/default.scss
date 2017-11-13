@@ -69,8 +69,8 @@ h1 {
   padding: 0;
   background-size: cover;
   background-position: center;
-  min-height: 300px;
   width: 100%;
+  min-height: 250px;
   margin-bottom: 1rem;
   .overlay {
     padding: 10px;
@@ -79,6 +79,7 @@ h1 {
     position: relative;
     &:hover {
       background-color: rgba(0,0,0, 0.5);
+      text-decoration: none;
     }
     .title{
       font-size: 2rem;
@@ -107,9 +108,9 @@ h1 {
   @include transition( opacity .4s ease-in-out);
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .project {
-
+  min-height: 300px;
   }
 }
 
@@ -119,7 +120,7 @@ h1 {
   }
 }
 
-@media (min-width: 1196px) {
+@media (min-width: 990px) {
   .project {
     width: 32%;
   }
