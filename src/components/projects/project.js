@@ -5,7 +5,9 @@ class Project extends Component {
 	render() {
 		return (
 			<div className="project clearfix col-md-4">
-				<h2 className="project-title">{this.props.title}</h2>
+				<a className="title" href={this.props.site}>
+					{this.props.title}
+				</a>
 				<img className="project-image" src={this.props.image} alt="project-image"/>
 				<p className="description">
 					{this.props.children}

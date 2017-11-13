@@ -52,13 +52,21 @@ header {
 .project {
   padding: 10px;
   position: relative;
-  h2 {
+  .title{
+    font-size: 2rem;
     color: $white;
     font-style: italic;
     position: absolute;
+    z-index: 1;
     top: 7em;
     left: 1em;
     opacity: 1;
+    @include transition(.4s ease-in-out);
+    cursor: pointer;
+    &:hover {
+      color: $red;
+      @include transition(.4s ease-in-out);
+    }
   }
   p {
     width: 94%;
@@ -78,14 +86,10 @@ header {
   }
 }
 
-.project:hover > h2 {
-  opacity: 0;
-  @include transition( opacity .5s ease-in-out);
-}
 
 .project:hover > p {
   display: block;
   opacity: 1;
   background-color: rgba(0,0,0,0.4);
-  @include transition( opacity .5s ease-in-out);
+  @include transition( opacity .4s ease-in-out);
 }
