@@ -13,6 +13,7 @@ import Portfolio from "./components/pages/portfolio";
 
 // includes
 import "./assets/css/default.min.css";
+import "./assets/js/script.js";
 
 
 class App extends Component {
