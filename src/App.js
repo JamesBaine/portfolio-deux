@@ -10,6 +10,7 @@ import Header from "./components/headerComponent/header";
 import Footer from "./components/footerComponent/footer";
 import HomePage from "./components/pages/homePage";
 import Portfolio from "./components/pages/portfolio";
+import About from "./components/aboutComponent/about";
 
 // includes
 import "./assets/css/default.min.css";
@@ -26,6 +27,7 @@ class App extends Component {
 
 					<HomePage />
 					<Portfolio />
+					<About />
 
 					{/* <Route exact path="/" component={HomePage}></Route>
 					<Route exact path="/#projects" component={Portfolio}></Route> */}
