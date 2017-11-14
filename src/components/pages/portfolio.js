@@ -5,13 +5,13 @@ import Work from "../projects/work";
 class Portfolio extends Component {
 	render() {
 		return (
-			<div id="projects" className="portfolio container-fluid">
-
-				<h1>Projects</h1>
-
-				<div className="projects container">
+			<section id="projects" className="portfolio">
 
 
+
+				<div className="projects">
+
+					<h1>Projects</h1>
 
 					<Project title={Work[0].title} site={Work[0].site} image={Work[0].image}>
 						{Work[0].description}
@@ -22,11 +22,6 @@ class Portfolio extends Component {
 					<Project title={Work[2].title} site={Work[2].site} image={Work[2].image}>
 						{Work[2].description}
 					</Project>
-
-
-
-
-
 					<Project title={Work[3].title} site={Work[3].site} image={Work[3].image}>
 						{Work[3].description}
 					</Project>
@@ -40,7 +35,7 @@ class Portfolio extends Component {
 
 				</div>
 
-			</div>
+			</section>
 		);
 	}
 }

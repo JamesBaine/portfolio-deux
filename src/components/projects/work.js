@@ -1,7 +1,7 @@
 const Work = [
 	{
 		title: "Spirit Bus",
-		image: require("../../assets/photos/sm-bus.jpg"),
+		image: require("../../assets/photos/spirit-bus.png"),
 		description: "An app detailing the routes and stops of the Spirit Bus public transit line in Monterey Park. The client side elements were designed with Javascript, CSS, Bootstrap and Sass. The map was rendered and traced using Leaflet.js.",
 		repo: "https://github.com/jacobkato49/MPK-SpiritBus",
 		site: "https://mysterious-badlands-17660.herokuapp.com/"

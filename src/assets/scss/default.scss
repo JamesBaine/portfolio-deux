@@ -90,16 +90,26 @@ h1 {
       margin-bottom: 1.5rem;
     }
     .location {
-      margin-bottom: 3rem;
+      margin-bottom: 2rem;
     }
     .links {
       color: $white;
       width: 100%;
+      height: 32px;
       margin: auto;
+      margin-bottom: 1rem;
+      @include flexbox();
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
       a {
         color: $white;
         font-size: 1rem;
         padding: 0 1rem 0 1rem;
+        &:hover {
+          color: $salmon;
+          @include transition(.4s ease-in-out);
+        }
       }
       .email {
         border-right: 1px solid $white;
@@ -121,7 +131,7 @@ h1 {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     &:hover {
-      border-color:$red;
+      border-color:$salmon;
       border-width: 0 4px 4px 0;
       @include transition(.4s ease-in-out);
     }
@@ -135,27 +145,36 @@ h1 {
   min-height: 100vh;
   margin-top: -60px;
   padding-top: 60px;
-  background: url("../photos/whirlpool.png");
   z-index: 1;
   h1 {
-    padding: 1.5rem;
+    display: block;
+    margin: 1.5rem 37.5% 2rem 37.5%;
+    padding-bottom: .5rem;
+    width: 25%;
+    border-bottom: solid 4px $black;
+    font-weight: bold;
   }
 }
 
 .projects {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
   @include flexbox();
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  border-top: 8px solid $salmon;
 }
 
 .project {
   @include flexbox();
   padding: 0;
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
   width: 100%;
-  min-height: 250px;
+  min-height: 300px;
   margin-bottom: 1rem;
   .overlay {
     padding: 10px;
@@ -174,6 +193,8 @@ h1 {
       position: absolute;
       bottom: 12px;
       left: 5px;
+      background-color: rgba(0,0,0,.2);
+      padding: 0 1em 0 1em;
     }
     p {
       padding: 1em;
@@ -202,11 +223,7 @@ h1 {
 }
 
 
-@media (max-width: 768px) {
-  .project {
-  min-height: 300px;
-  }
-}
+
 
 @media (min-width: 768px) {
   .project {

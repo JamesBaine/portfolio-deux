@@ -8,6 +8,7 @@ $white: #ffffff;
 $lightgrey: #e6e6e6;
 $darkgrey: #333;
 $red: #ff1755;
+$salmon: #FF7C6D;
 
 // mixins
 
@@ -47,7 +48,7 @@ a {
   cursor: pointer;
 
   &:hover {
-    color: $red;
+    color: $salmon;
     @include transition(.4s ease-in-out);
   }
 }
