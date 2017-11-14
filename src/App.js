@@ -10,7 +10,7 @@ import Header from "./components/headerComponent/header";
 import Footer from "./components/footerComponent/footer";
 import HomePage from "./components/pages/homePage";
 import Portfolio from "./components/pages/portfolio";
-import About from "./components/aboutComponent/about";
+import About from "./components/pages/about";
 
 // includes
 import "./assets/css/default.min.css";

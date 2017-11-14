@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Project from "../projects/project";
 import Work from "../projects/work";
+import Skills from "../skillsComponent/skills";
+
 
 class Portfolio extends Component {
 	render() {
@@ -31,6 +33,8 @@ class Portfolio extends Component {
 					<Project title={Work[5].title} site={Work[5].site} image={Work[5].image}>
 						{Work[5].description}
 					</Project>
+
+					<Skills />
 
 
 				</div>

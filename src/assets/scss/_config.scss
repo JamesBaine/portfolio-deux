@@ -9,6 +9,8 @@ $lightgrey: #e6e6e6;
 $darkgrey: #333;
 $red: #ff1755;
 $salmon: #FF7C6D;
+$darkblue: #014289;
+$lavblue: #637AFF;
 
 // mixins
 
@@ -35,7 +37,7 @@ $salmon: #FF7C6D;
 // fonts
 
 body {
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   color: $black;
   font-weight: 400;
