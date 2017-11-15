@@ -22,8 +22,8 @@ const Work = [
 	},
 	{
 		title: "Wølf",
-		image: require("../../assets/photos/sm-bam.jpg"),
-		description: "And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I lay My vengeance upon thee.",
+		image: require("../../assets/photos/wolf.png"),
+		description: "An   app   that   tracks   the   location   of   your   pet   using   an   RFID   collar   tag   and   the   Google   Maps   API",
 		repo: "https://github.com/jacobkato49/MPK-SpiritBus",
 		site: "https://mysterious-badlands-17660.herokuapp.com/"
 	},
@@ -37,7 +37,7 @@ const Work = [
 	{
 		title: "Giftastic",
 		image: require("../../assets/photos/giftastic.png"),
-		description: "Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... ",
+		description: "Gif generating web application that uses the giphy api and firebase to generate an array of gifs based on the users input.",
 		repo: "https://github.com/jacobkato49/MPK-SpiritBus",
 		site: "https://jamesbaine.github.io/GifTastic/"
 	}
