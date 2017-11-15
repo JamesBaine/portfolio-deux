@@ -15,16 +15,16 @@ class Header extends Component {
 				<nav>
 					<ul>
 						<li className="first">
-							<a id="#nav-home" href="/#">Home</a>
+							<a id="nav-home" href="/#">Home</a>
 						</li>
 						<li>
-							<a id="#nav-projects" href="#projects">Projects</a>
+							<a id="nav-projects" href="#projects">Projects</a>
 						</li>
 						<li>
-							<a id="#nav-about" href="#about">About</a>
+							<a id="nav-about" href="#about">About</a>
 						</li>
 						<li className="last">
-							<Link to="/">Contact</Link>
+							<a id="nav-contact" href="#contact">Contact</a>
 						</li>
 					</ul>
 				</nav>

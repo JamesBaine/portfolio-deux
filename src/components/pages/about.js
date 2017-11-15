@@ -4,7 +4,9 @@ class About extends Component {
 	render() {
 		return (
 			<section id="about">
+
 				<h1>About Me</h1>
+				
 				<p>Web developer with a passion for learning with an endless supply of optimism and curiosity.</p>
 
 				<p>One of my stronger points is writing front-ends that are smooth, simple and aesthetically pleasing. I primarily use languages and libraries such as Javascript, CSS, Sass and React. I'm also constantly learning new ones to try to find more efficient ways of doing things.</p>
@@ -17,7 +19,7 @@ class About extends Component {
 
 				<p>I'm based in LA right now but I love traveling and going to new places so I am open to relocating if need be.
 				</p>
-				
+
 			</section>
 		);
 	}

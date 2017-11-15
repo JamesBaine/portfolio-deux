@@ -31,8 +31,8 @@ const Work = [
 		title: "Flash Card Generator",
 		image: require("../../assets/photos/flash-card.png"),
 		description: "Node.js backend application that allows users to create two types of flashcards and then quiz themselves using the command line.",
-		repo: "https://github.com/jacobkato49/MPK-SpiritBus",
-		site: "https://mysterious-badlands-17660.herokuapp.com/"
+		repo: "https://github.com/JamesBaine/Flashcard-Generator",
+		site: "https://github.com/JamesBaine/Flashcard-Generator"
 	},
 	{
 		title: "Giftastic",

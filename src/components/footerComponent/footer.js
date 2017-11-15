@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Footer extends Component {
 	render() {
 		return (
-			<footer>
+			<footer id="contact">
 
 				<p className="connect">Connect with me</p>
 
