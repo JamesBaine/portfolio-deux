@@ -29,17 +29,17 @@ const Work = [
 	},
 	{
 		title: "Flash Card Generator",
-		image: require("../../assets/photos/sm-flashcard.jpg"),
-		description: "Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.",
+		image: require("../../assets/photos/flash-card.png"),
+		description: "Node.js backend application that allows users to create two types of flashcards and then quiz themselves using the command line.",
 		repo: "https://github.com/jacobkato49/MPK-SpiritBus",
 		site: "https://mysterious-badlands-17660.herokuapp.com/"
 	},
 	{
 		title: "Giftastic",
-		image: require("../../assets/photos/sm-donut.png"),
+		image: require("../../assets/photos/giftastic.png"),
 		description: "Now that we know who you are, I know who I am. I'm not a mistake! It all makes sense! In a comic, you know how you can tell who the arch-villain's going to be? He's the exact opposite of the hero. And most times they're friends, like you and me! I should've known way back when... ",
 		repo: "https://github.com/jacobkato49/MPK-SpiritBus",
-		site: "https://mysterious-badlands-17660.herokuapp.com/"
+		site: "https://jamesbaine.github.io/GifTastic/"
 	}
 ];
 
