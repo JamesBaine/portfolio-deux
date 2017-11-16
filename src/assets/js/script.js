@@ -1,13 +1,16 @@
-// var smoothScroll = require("smoothscroll");
-//
-// var projectButton = document.querySelector("#nav-projects");
-// var projects = document.querySelector("#projects");
-//
-// // This function can easily be an onClick handler in React components
-// var handleClick = function(event) {
-// 	event.preventDefault();
-//
-// 	smoothScroll(projects);
-// };
-//
-// projectButton.addEventListener("click", handleClick);
+import $ from "jquery";
+
+$(document).ready(function(){
+	$("a[href^=\"#\"]").on("click",function (e) {
+		e.preventDefault();
+
+		var target = this.hash;
+		var $target = $(target);
+
+		$("html, body").stop().animate({
+			"scrollTop": $target.offset().top
+		}, 900, "swing", function () {
+			window.location.hash = target;
+		});
+	});
+});
