@@ -38,8 +38,8 @@ const Work = [
 		title: "Bamazon",
 		image: require("../../assets/photos/sm-bam.jpg"),
 		description: "Node app that is a simplified e-commerce platform that links to a mysql database to track Products and inventory.",
-		repo: "https://github.com/jacobkato49/MPK-SpiritBus",
-		site: "https://mysterious-badlands-17660.herokuapp.com/"
+		repo: "https://github.com/JamesBaine/bamazon",
+		site: "https://github.com/JamesBaine/bamazon"
 	}
 ];
 
