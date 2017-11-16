@@ -15,8 +15,8 @@ const Work = [
 	},
 	{
 		title: "React-News",
-		image: require("../../assets/photos/sm-trivia.jpg"),
-		description: "The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed is he who, in the name of charity and good will, shepherds the weak through the valley of darkness",
+		image: require("../../assets/photos/news-feed.png"),
+		description: "React and Redux application that fetches data from various RSS feeds of the user’s choice and displays the results in a web based interface.",
 		repo: "https://github.com/jacobkato49/MPK-SpiritBus",
 		site: "https://mysterious-badlands-17660.herokuapp.com/"
 	},
