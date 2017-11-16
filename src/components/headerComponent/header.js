@@ -4,10 +4,10 @@ import React, { Component } from "react";
 class Header extends Component {
 	render() {
 		return (
-			<header>
+			<header id="home">
 
 
-				<a className="logo" href="/#">
+				<a className="logo" href="#home">
 					<svg id="icon" width="40" height="40">
 						<polyline fill="none"  stroke-width="3"
 							points=
@@ -26,7 +26,7 @@ class Header extends Component {
 				<nav>
 					<ul>
 						<li className="first">
-							<a id="nav-home" href="/#">Home</a>
+							<a id="nav-home" href="#home">Home</a>
 						</li>
 						<li>
 							<a id="nav-projects" href="#projects">Projects</a>
