@@ -7,11 +7,11 @@ const Work = [
 		site: "https://mysterious-badlands-17660.herokuapp.com/"
 	},
 	{
-		title: "Friend Finder",
-		image: require("../../assets/photos/sm-friends.jpg"),
-		description: "Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows.",
-		repo: "https://github.com/jacobkato49/MPK-SpiritBus",
-		site: "https://mysterious-badlands-17660.herokuapp.com/"
+		title: "Flash Card Generator",
+		image: require("../../assets/photos/flash-card.png"),
+		description: "Node.js backend application that allows users to create two types of flashcards and then quiz themselves using the command line.",
+		repo: "https://github.com/JamesBaine/Flashcard-Generator",
+		site: "https://github.com/JamesBaine/Flashcard-Generator"
 	},
 	{
 		title: "React-News",
@@ -28,18 +28,18 @@ const Work = [
 		site: "https://mysterious-badlands-17660.herokuapp.com/"
 	},
 	{
-		title: "Flash Card Generator",
-		image: require("../../assets/photos/flash-card.png"),
-		description: "Node.js backend application that allows users to create two types of flashcards and then quiz themselves using the command line.",
-		repo: "https://github.com/JamesBaine/Flashcard-Generator",
-		site: "https://github.com/JamesBaine/Flashcard-Generator"
-	},
-	{
 		title: "Giftastic",
 		image: require("../../assets/photos/giftastic.png"),
 		description: "Gif generating web application that uses the giphy api and firebase to generate an array of gifs based on the users input.",
 		repo: "https://github.com/jacobkato49/MPK-SpiritBus",
 		site: "https://jamesbaine.github.io/GifTastic/"
+	},
+	{
+		title: "Bamazon",
+		image: require("../../assets/photos/sm-bam.jpg"),
+		description: "Node app that is a simplified e-commerce platform that links to a mysql database to track Products and inventory.",
+		repo: "https://github.com/jacobkato49/MPK-SpiritBus",
+		site: "https://mysterious-badlands-17660.herokuapp.com/"
 	}
 ];
 
