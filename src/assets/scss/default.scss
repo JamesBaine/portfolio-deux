@@ -12,17 +12,27 @@ header {
   position: fixed;
   display: block;
   width: 100%;
-  background-color: $darkgrey;
+  background-color: $bar-color;
   color: $white;
-  height: 60px;
+  height: 45px;
   z-index: 10;
 }
   .logo {
     font-size: 20px;
+    padding-top: .5rem;
     color: $white;
     position: absolute;
     top: 50%; left: 15px;
     @include translateY(-50%);
+  }
+
+  #icon polyline {
+    stroke: $white;
+  }
+
+  #icon:hover > polyline {
+    stroke: $hover;
+    @include transition(.4s ease-in-out);
   }
 
   nav,
@@ -37,19 +47,22 @@ header {
     top: 50%; right: 15px;
     @include translateY(-50%);
 
-    ul li {
-      list-style-type: none;
-      display: inline-block;
-      margin-right: 10px;
+    ul {
+        padding-right: 1rem;
+      li {
+        list-style-type: none;
+        display: inline-block;
+        margin-right: 10px;
 
-      &.last {
-        margin: 0;
-      }
+        &.last {
+          margin: 0;
+        }
 
-      a {
-        font-size: 19px;
-        line-height: normal;
-        color: $white;
+        a {
+          font-size: 19px;
+          line-height: normal;
+          color: $white;
+        }
       }
     }
   }
@@ -240,7 +253,7 @@ h1 {
 // footer
 footer {
 width: 100%;
-background-color: $darkgrey;
+background-color: $bar-color;
 color: $white;
 text-align: center;
 padding: 1rem;

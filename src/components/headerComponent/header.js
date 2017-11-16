@@ -9,7 +9,20 @@ class Header extends Component {
 			<header>
 
 
-				<a className="logo" href="/#">LOGO</a>
+				<a className="logo" href="/#">
+					<svg id="icon" width="40" height="40">
+						<polyline fill="none"  stroke-width="3"
+							points=
+								"8,4
+							 32,4
+							 24,12
+							 32,16
+							 20,36
+							 8,16
+							 16,12"
+						/>
+					</svg>
+				</a>
 
 
 				<nav>
