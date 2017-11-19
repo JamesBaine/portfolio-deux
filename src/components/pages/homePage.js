@@ -17,7 +17,7 @@ class HomePage extends Component {
 					</div>
 				</div>
 
-				<a href="#projects" className="arrow"></a>
+				<a href="#projects" className="arrow"> </a>
 
 			</div>
 		);
