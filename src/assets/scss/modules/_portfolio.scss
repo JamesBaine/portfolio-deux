@@ -1,0 +1,81 @@
+.portfolio {
+  text-align: center;
+  min-height: 100vh;
+  margin-top: -45px;
+  padding-top: 45px;
+  z-index: 1;
+  background-color: $lightgrey;
+  h1 {
+    display: inline-block;
+    margin: 1.5rem auto 2rem auto;
+    padding-bottom: .5rem;
+    width: 16rem;;
+    font-weight: bold;
+  }
+}
+
+.projects {
+    border-top: 8px solid $salmon;
+}
+
+.projects-container {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  @include flexbox();
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project {
+  @include flexbox();
+  padding: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: auto;
+  min-height: 300px;
+  margin-bottom: 1rem;
+  border: 1px solid $black;
+  border-radius: 1px;
+  .overlay {
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    &:hover {
+      background-color: rgba(0,0,0, 0.5);
+      text-decoration: none;
+    }
+    .title{
+      font-size: 2rem;
+      color: $black;
+      font-weight: bold;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background-color: $white;
+      width: 100%;
+      padding: .5rem 0 .5rem 0;
+    }
+    p {
+      padding: 1em;
+      margin-right: auto;
+      margin-left: auto;
+      color: $white;
+      opacity: 0;
+      z-index: 1;
+    }
+  }
+
+}
+
+
+
+.overlay:hover > p {
+  display: block;
+  opacity: 1;
+  @include transition( opacity .4s ease-in-out);
+}

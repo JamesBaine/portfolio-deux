@@ -1,0 +1,32 @@
+footer {
+width: 100%;
+background-color: $bar-color;
+color: $white;
+text-align: center;
+padding: 1rem;
+display: block;
+.connect {
+  font-size: 1.5rem;
+  margin: auto;
+  margin-bottom: 1rem;
+  width: 12rem;
+  padding-bottom: .25rem;
+  border-bottom: 1px solid $white;
+}
+  ul {
+    margin: auto;
+    text-align: center;
+    padding: 0;
+    li:first-child {
+    padding-left: 0;
+    }
+    li {
+    list-style-type: none;
+    display: inline-block;
+    padding-left: .5rem;
+      a img {
+        height: 2rem;
+      }
+    }
+  }
+}

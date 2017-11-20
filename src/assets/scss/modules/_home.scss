@@ -1,0 +1,82 @@
+h1 {
+  display: block;
+  width: 100;
+}
+
+.home-content {
+  background: url("../photos/martin-sattler.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+  @include flexbox();
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 5;
+  .banner {
+    margin: auto;
+    padding-top: 2.75rem;
+    border: 4px double;
+    height: 18rem;
+    width: 28rem;
+    color: $white;
+    .name {
+      font-weight: normal;
+      margin-bottom: 1.5rem;
+    }
+    .title {
+      font-size: 1.25rem;
+      font-weight: bold;
+      margin-bottom: 1.5rem;
+    }
+    .location {
+      margin-bottom: 2rem;
+    }
+    .links {
+      color: $white;
+      width: 100%;
+      height: 32px;
+      margin: auto;
+      margin-bottom: 1rem;
+      @include flexbox();
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      a {
+        color: $white;
+        font-size: 1rem;
+        padding: 0 1rem 0 1rem;
+        &:hover {
+          color: $salmon;
+          @include transition(.4s ease-in-out);
+        }
+      }
+      .email {
+        border-right: 1px solid $white;
+      }
+      .github {
+        border-left: 1px solid $white;
+      }
+    }
+
+  }
+  .arrow {
+    width: 20px;
+    height: 20px;
+    border: solid $white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-bottom: 2rem;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    &:hover {
+      border-color:$salmon;
+      border-width: 0 4px 4px 0;
+      @include transition(.4s ease-in-out);
+    }
+  }
+}

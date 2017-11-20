@@ -1,0 +1,21 @@
+#about  {
+  color: $white;
+  width: 100%;
+  padding: 2rem 5% 2rem 5%;
+  background-color: $darkblue;
+  h1 {
+    text-align: center;
+    margin: 0 auto 1.5rem auto;
+    padding-bottom: .5rem;
+    width: 16rem;
+    font-weight: bold;
+  }
+}
+
+#skills {
+  margin-top: 1rem;
+  p {
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+  }
+}
