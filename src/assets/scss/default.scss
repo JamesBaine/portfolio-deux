@@ -1,4 +1,4 @@
-@import "_config.scss";
+@import "config";
 
 @import "modules/about";
 @import "modules/home";
@@ -32,6 +32,7 @@ body {
 @media (min-width: 980px) {
   .project {
     width: 46%;
+    height: 280px;
   }
 }
 

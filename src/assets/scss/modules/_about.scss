@@ -9,10 +9,12 @@
     padding-bottom: .5rem;
     width: 16rem;
     font-weight: bold;
+    text-shadow: $textShadow;
   }
 }
 
 #skills {
+  color: $darkgrey;
   margin-top: 1rem;
   p {
     margin-bottom: 0;
