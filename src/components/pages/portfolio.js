@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import Project from "../projects/project";
 import Work from "../projects/work";
 import Skills from "../skillsComponent/skills";
+import ProjectList from "../projects/projectList";
+
 
 
 class Portfolio extends Component {
@@ -17,7 +19,9 @@ class Portfolio extends Component {
 
 					<div className="projects-container">
 
-						<Project title={Work[0].title} site={Work[0].site} image={Work[0].image}>
+						<ProjectList />
+
+						{/* <Project title={Work[0].title} site={Work[0].site} image={Work[0].image}>
 							{Work[0].description}
 						</Project>
 						<Project title={Work[1].title} site={Work[1].site} image={Work[1].image}>
@@ -34,7 +38,7 @@ class Portfolio extends Component {
 						</Project>
 						<Project title={Work[5].title} site={Work[5].site} image={Work[5].image}>
 							{Work[5].description}
-						</Project>
+						</Project> */}
 
 					</div>
 
